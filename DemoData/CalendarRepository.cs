@@ -21,6 +21,7 @@ namespace DemoData
 
             vm.Sessions = sessions;
 
+
             return vm;
         }
     }

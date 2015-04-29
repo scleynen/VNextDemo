@@ -1,1 +1,2 @@
 C:\TechnicalAfternoon\TechAfternoonVNextDemo\artifacts\obj\TechAfternoonVNextDemoWeb\Debug\TechAfternoonVNextDemoWeb.kprojResolveAssemblyReference.cache
+C:\Projects\VNextDemo\artifacts\obj\TechAfternoonVNextDemoWeb\Debug\TechAfternoonVNextDemoWeb.kprojResolveAssemblyReference.cache

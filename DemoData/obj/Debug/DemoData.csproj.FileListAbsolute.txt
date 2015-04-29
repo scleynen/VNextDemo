@@ -2,3 +2,8 @@ C:\TechnicalAfternoon\TechAfternoonVNextDemo\DemoData\bin\Debug\DemoData.dll
 C:\TechnicalAfternoon\TechAfternoonVNextDemo\DemoData\bin\Debug\DemoData.pdb
 C:\TechnicalAfternoon\TechAfternoonVNextDemo\DemoData\obj\Debug\DemoData.dll
 C:\TechnicalAfternoon\TechAfternoonVNextDemo\DemoData\obj\Debug\DemoData.pdb
+C:\Projects\VNextDemo\DemoData\bin\Debug\DemoData.dll
+C:\Projects\VNextDemo\DemoData\bin\Debug\DemoData.pdb
+C:\Projects\VNextDemo\DemoData\obj\Debug\DemoData.csprojResolveAssemblyReference.cache
+C:\Projects\VNextDemo\DemoData\obj\Debug\DemoData.dll
+C:\Projects\VNextDemo\DemoData\obj\Debug\DemoData.pdb

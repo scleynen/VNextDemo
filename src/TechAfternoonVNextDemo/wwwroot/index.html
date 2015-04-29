@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <title>Demo Technical Afternoon</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="app/app.css" />
+</head>
+<body ng-controller="HomeController as vm">
+    <div class="container">
+        <div class="row">
+            <h2 class="page-header">
+                {{ vm.title }}
+            </h2>
+        </div>
+
+        <div class="row events">
+            <table class="table table-hover">
+                <tr class="row" ng-repeat="session in vm.sessions">
+                    <td>
+                        {{ session.title }}
+                    </td>
+                    <td>
+                        {{ session.speaker }}
+                    </td>
+                    <td class="{{ session.type }}">
+                        {{ session.type }}
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-ui-router/angular-ui-router.js"></script>
+    <script src="app/app.js"></script>
+
+    <script>
+        angular.module('app');
+    </script>
+</body>
+</html>
