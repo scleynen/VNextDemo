@@ -1,0 +1,10 @@
+{
+  "sources": [
+    "src",
+    "test",
+    "wrap"
+  ],
+  "sdk": {
+    "version": "1.0.0-beta3"
+  }
+}

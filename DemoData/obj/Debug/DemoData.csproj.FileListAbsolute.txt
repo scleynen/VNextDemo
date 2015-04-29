@@ -1,0 +1,4 @@
+C:\TechnicalAfternoon\TechAfternoonVNextDemo\DemoData\bin\Debug\DemoData.dll
+C:\TechnicalAfternoon\TechAfternoonVNextDemo\DemoData\bin\Debug\DemoData.pdb
+C:\TechnicalAfternoon\TechAfternoonVNextDemo\DemoData\obj\Debug\DemoData.dll
+C:\TechnicalAfternoon\TechAfternoonVNextDemo\DemoData\obj\Debug\DemoData.pdb

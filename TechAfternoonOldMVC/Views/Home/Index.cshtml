@@ -1,0 +1,40 @@
+﻿@model DemoData.Calendar
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Demo Technical Afternoon</title>
+    <link rel="stylesheet" href="/Scripts/bootstrap.css" />
+    <link rel="stylesheet" href="/Scripts/app.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2 class="page-header">
+                @Model.Title
+            </h2>
+        </div>
+
+        <div class="row events">
+            <table class="table table-hover">
+                @foreach (var session in Model.Sessions)
+                {
+                    <tr class="row">
+                        <td>
+                            @session.Title
+                        </td>
+                        <td>
+                            @session.Speaker
+                        </td>
+                        <td class="@session.Type">
+                            @session.Type
+                        </td>
+                    </tr>
+                }            
+            </table>
+
+        </div>
+    </div>
+</body>
+</html>

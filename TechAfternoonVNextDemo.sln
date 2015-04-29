@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9BA29EFD-DAA3-4E83-8711-309BE056020A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF5818E9-1C40-479D-B97D-82FB2CAA7BE3}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TechAfternoonVNextDemoAngular", "src\TechAfternoonVNextDemo\TechAfternoonVNextDemoAngular.kproj", "{DFDBC8F5-509B-4E3C-AC98-7AE0C32BD1CD}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TechAfternoonVNextDemoWeb", "src\TechAfternoonVNextDemoWeb\TechAfternoonVNextDemoWeb.kproj", "{89707B60-BD98-4986-9F73-832A537438C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechAfternoonOldMVC", "TechAfternoonOldMVC\TechAfternoonOldMVC.csproj", "{72ABC202-4213-4121-9F92-C6697654B3AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4263956A-4BD8-458C-B875-4189AE0E9C2A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoData", "DemoData\DemoData.csproj", "{C5818C45-3537-4DAB-BF84-846DDC31CCDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFDBC8F5-509B-4E3C-AC98-7AE0C32BD1CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDBC8F5-509B-4E3C-AC98-7AE0C32BD1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDBC8F5-509B-4E3C-AC98-7AE0C32BD1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDBC8F5-509B-4E3C-AC98-7AE0C32BD1CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89707B60-BD98-4986-9F73-832A537438C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89707B60-BD98-4986-9F73-832A537438C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89707B60-BD98-4986-9F73-832A537438C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89707B60-BD98-4986-9F73-832A537438C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72ABC202-4213-4121-9F92-C6697654B3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72ABC202-4213-4121-9F92-C6697654B3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72ABC202-4213-4121-9F92-C6697654B3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72ABC202-4213-4121-9F92-C6697654B3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5818C45-3537-4DAB-BF84-846DDC31CCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5818C45-3537-4DAB-BF84-846DDC31CCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5818C45-3537-4DAB-BF84-846DDC31CCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5818C45-3537-4DAB-BF84-846DDC31CCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFDBC8F5-509B-4E3C-AC98-7AE0C32BD1CD} = {9BA29EFD-DAA3-4E83-8711-309BE056020A}
+		{89707B60-BD98-4986-9F73-832A537438C3} = {9BA29EFD-DAA3-4E83-8711-309BE056020A}
+		{72ABC202-4213-4121-9F92-C6697654B3AB} = {9BA29EFD-DAA3-4E83-8711-309BE056020A}
+		{C5818C45-3537-4DAB-BF84-846DDC31CCDE} = {9BA29EFD-DAA3-4E83-8711-309BE056020A}
+	EndGlobalSection
+EndGlobal
