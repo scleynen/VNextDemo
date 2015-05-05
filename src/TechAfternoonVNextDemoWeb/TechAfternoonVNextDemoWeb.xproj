@@ -4,16 +4,27 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
-  <Import Project="$(VSToolsPath)\AspNet\Microsoft.Web.AspNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>dfdbc8f5-509b-4e3c-ac98-7ae0c32bd1cd</ProjectGuid>
-    <RootNamespace>TechAfternoonVNextDemo</RootNamespace>
+    <ProjectGuid>89707b60-bd98-4986-9f73-832a537438c3</ProjectGuid>
+    <RootNamespace>TechAfternoonVNextDemoWeb</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\..\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">..\..\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
   </PropertyGroup>
   <PropertyGroup>
     <SchemaVersion>2.0</SchemaVersion>
-    <DevelopmentServerPort>2500</DevelopmentServerPort>
+    <DevelopmentServerPort>2536</DevelopmentServerPort>
   </PropertyGroup>
-  <Import Project="$(VSToolsPath)\AspNet\Microsoft.Web.AspNet.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <ProduceOutputsOnBuild>False</ProduceOutputsOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DemoData\DemoData.csproj" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.Props" />
+  <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

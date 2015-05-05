@@ -2,18 +2,14 @@
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Http;
-using Microsoft.AspNet.Routing;
 using Microsoft.Framework.DependencyInjection;
-using DemoData.Interface;
-using DemoData;
+using DemoDataVNext.Interface;
+using DemoDataVNext;
 
 namespace TechAfternoonVNextDemoWeb
 {
     public class Startup
     {
-        public Startup(IHostingEnvironment env)
-        {
-        }
 
         // This method gets called by a runtime.
         // Use this method to add services to the container

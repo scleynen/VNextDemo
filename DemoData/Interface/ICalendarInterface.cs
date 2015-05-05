@@ -9,5 +9,7 @@ namespace DemoData.Interface
     public interface ICalendarRepository
     {
         Calendar GetCalendar();
+
+        Task<string> GetMenuAsync();
     }
 }

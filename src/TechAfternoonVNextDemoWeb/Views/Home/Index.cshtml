@@ -1,4 +1,4 @@
-﻿@model DemoData.Calendar
+﻿@model DemoDataVNext.Calendar
 
 <!DOCTYPE html>
 <html>
@@ -14,6 +14,9 @@
             <h2 class="page-header">
                 @Model.Title
             </h2>
+        </div>
+        <div class="row">
+            @await Component.InvokeAsync("Menu")
         </div>
 
         <div class="row events">

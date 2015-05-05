@@ -11,7 +11,7 @@ namespace DemoData
     {
         public Calendar GetCalendar()
         {
-            var vm = new Calendar() { Title = "Technical Afternoon MVC Demo" };
+            var vm = new Calendar() { Title = "Technical Afternoon OLD MVC Demo" };
 
             var sessions = new List<Session>();
 
@@ -23,6 +23,11 @@ namespace DemoData
 
 
             return vm;
+        }
+
+        public Task<string> GetMenuAsync()
+        {
+            return Task.FromResult("HOME | ALL");
         }
     }
 }

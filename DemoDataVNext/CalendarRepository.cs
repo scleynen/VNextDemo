@@ -1,6 +1,8 @@
 ﻿using DemoDataVNext;
 using DemoDataVNext.Interface;
+using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace DemoDataVNext
 {
@@ -8,7 +10,7 @@ namespace DemoDataVNext
     {
         public Calendar GetCalendar()
         {
-            var vm = new Calendar() { Title = "Technical Afternoon MVC Demo" };
+            var vm = new Calendar() { Title = "Technical Afternoon asp.net 5 MVC Demo" };
 
             var sessions = new List<Session>();
 
@@ -20,6 +22,11 @@ namespace DemoDataVNext
 
 
             return vm;
+        }
+
+        public Task<String> GetMenuAsync()
+        {
+            return Task.FromResult("HOME | ALL");
         }
     }
 }

@@ -4,17 +4,16 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
-
-  <Import Project="$(VSToolsPath)\AspNet\Microsoft.Web.AspNet.Props" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
     <ProjectGuid>403fcf5c-a90a-4cfa-9d1c-6cf4e25eb457</ProjectGuid>
-    <RootNamespace>DemoDataVNext</RootNamespace>
-    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
-    <OutputPath Condition="'$(OutputPath)'=='' ">..\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\..\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <OutputPath Condition="'$(OutputPath)'=='' ">..\..\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
   </PropertyGroup>
-
   <PropertyGroup>
     <SchemaVersion>2.0</SchemaVersion>
+    <DevelopmentServerPort>11041</DevelopmentServerPort>
   </PropertyGroup>
-  <Import Project="$(VSToolsPath)\AspNet\Microsoft.Web.AspNet.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>

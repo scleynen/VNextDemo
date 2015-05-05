@@ -1,6 +1,7 @@
-﻿using DemoData.Interface;
+﻿using DemoDataVNext.Interface;
 using Microsoft.AspNet.Mvc;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -19,9 +20,8 @@ namespace TechAfternoonVNextDemoWeb.Controllers
         [HttpGet("/")]
         public IActionResult Index()
         {
-
-
             return View(_calendarRepository.GetCalendar());
         }
+
     }
 }
